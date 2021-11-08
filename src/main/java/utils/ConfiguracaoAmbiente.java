@@ -48,20 +48,4 @@ public class ConfiguracaoAmbiente {
         }
     }
 
-
-    String rootOrigem = null;
-    String rootDestino = null;
-    LocalDateTime agora = LocalDateTime.now();
-    DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd-MM-yyyy-HH-mm-ss");
-
-    public void screenShot(String fileName) throws IOException {
-
-        rootOrigem = this.path + "\\screenshot\\";
-        rootDestino = rootOrigem + fileName + "_" + agora.format(formato) + ".jpg";
-        TakesScreenshot ss = (TakesScreenshot) getDriver();
-        File arquivo = ss.getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(arquivo,new File(rootDestino));
-        System.out.println("Caminho do print: " + rootOrigem);
-    }
-
 }

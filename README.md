@@ -32,13 +32,13 @@ Para baixar as dependências e rodar os testes pela primeira vez, executar o com
 ### Questionamentos Desafio
 2- Dos cenários planejados, quais você acha que devem ser automatizados? Por que?  
 Resposta: Daria prioridade no cenário que possui o fluxo principal da aplicação "Realizar contratacao seguro com sucesso", por se tratar
-do "core" do sistema e que não deve deixar de funcionar por alguma modificação no sistema.
+do "core" do sistema e que não deve deixar de funcionar por alguma modificação no sistema.  
 Obs.: Não automatizei o fluxo principal, pois a aplicação estava quebrando na tela 3.  
 Utilizei como critério o cenário com um fluxo mais longo que envolvia mais passos
 para demonstração.   
 
 4- Você construiria cenários para validar o backend? Por que? Se sim, o que você validaria?  
-Resposta: Sim, por se tratar de um teste mais rápido e barato, conforme o concieto da pirâmide de testes.Validaria a saúde da aplicação.
+Resposta: Sim, por se tratar de um teste mais rápido e barato, conforme o conceito da pirâmide de testes.Validaria a saúde da aplicação.
 
 
 
