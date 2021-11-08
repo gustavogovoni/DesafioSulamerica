@@ -1,0 +1,14 @@
+# ignora arquivos da worspace do intellij
+
+# IDE
+*.iml
+*.bak
+.idea/
+target/
+
+# ignora arquivos da worspace do eclipse
+
+.settings/
+.classpath
+.project
+.metadata
