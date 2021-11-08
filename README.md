@@ -38,8 +38,7 @@ Utilizei como critério o cenário com um fluxo mais longo que envolvia mais pas
 para demonstração.   
 
 4- Você construiria cenários para validar o backend? Por que? Se sim, o que você validaria?  
-Resposta: Sim, para avaliar a saúde da API. Faria uma requisição, utilizando o método "GET", validando se o site está no ar e a performance do serviço, por exemplo,
-tempo de execução menor que 2 segundos.  
+Resposta: Sim, por se tratar de um teste mais rápido e barato, conforme o concieto da pirâmide de testes.Validaria a saúde da aplicação.
 
 
 
